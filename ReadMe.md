@@ -1,12 +1,10 @@
-```markdown
-
 # Clinical Trial Status Predictor
 
 ## Overview
 Machine learning system that predicts clinical trial completion status and explains predictions using SHAP values. Processes multiple trial datasets, handles missing values, and provides API endpoints for predictions.
 
 ## Directory Structure
-```
+```bash
 PS3_PROJECT/
 ├── app/                           # FastAPI Application
 │   └── main.py                   # API endpoints and prediction logic
@@ -182,5 +180,3 @@ main.py: API endpoints
 
 
 - Update API schema in main.py
-
-```
