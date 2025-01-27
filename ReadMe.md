@@ -49,7 +49,7 @@ PS3_PROJECT/
 
 1. Clone repository and navigate to project:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Gem2005/Clinical-Trail-Status-Predicting-ML-Model.git
 cd ps3_project
 ```
 
@@ -103,6 +103,7 @@ Features used:
 
 1. Start API server:
 ```bash
+#run app/main.py
 uvicorn app.main:app --reload
 ```
 
